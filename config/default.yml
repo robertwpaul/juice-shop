@@ -7,10 +7,10 @@ application:
   favicon: favicon_v2.ico
   numberOfRandomFakeUsers: 0
   showChallengeSolvedNotifications: true
-  showChallengeHints: true
-  showVersionNumber: true
+  showChallengeHints: false
+  showVersionNumber: false
   theme: slate # Options: cerulean  cosmo  cyborg  darkly  flatly lumen  paper  readable  sandstone  simplex  slate  spacelab  superhero  united  yeti
-  gitHubRibbon: orange # Options: darkblue  gray  green  orange  red  white  none
+  gitHubRibbon: none # Options: darkblue  gray  green  orange  red  white  none
   twitterUrl: 'https://twitter.com/owasp_juiceshop'
   facebookUrl: 'https://www.facebook.com/owasp.juiceshop'
   planetOverlayMap: orangemap2k.jpg
@@ -216,6 +216,6 @@ products:
     image: melon_bike.jpeg
 ctf:
   countryMapping: ~
-  showFlagsInNotifications: false
+  showFlagsInNotifications: true
   showCountryDetailsInNotifications: none # Options: none  name  flag  both
   
