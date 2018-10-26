@@ -16,5 +16,11 @@
     "vulnerability",
     "broken",
     "bodgeit"
-  ]
+  ],
+  "env": {
+    "NODE_ENV": {
+      "description": "Use 'ctf' to enable CTF mode",
+      "value": "ctf"
+    }
+  }
 }
